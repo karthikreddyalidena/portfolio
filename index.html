@@ -18,6 +18,8 @@
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#education">Education & Info</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
@@ -134,25 +136,92 @@
                     <p class="date">Apr 2021 – Mar 2023</p>
                     <p>Percentage: 91.8%</p>
                 </div>
+                <div class="timeline-item">
+                    <h4>Matriculation</h4>
+                    <p><strong>A.P Model School</strong></p>
+                    <p class="date">Passed with 100%</p>
+                </div>
             </div>
         </div>
         
         <div class="col-half glass" data-tilt data-tilt-axis="y" data-tilt-max="5" data-tilt-glare="true" data-tilt-max-glare="0.2">
-            <h2 class="section-title">Certifications & <span class="gradient-text">Achievements</span></h2>
-            <div class="achievement-box">
-                <h4><i class="fas fa-certificate"></i> Certifications</h4>
-                <ul>
-                    <li>Data Structures and Algorithms in C++ – CipherSchools (Jun 25 – Jul 25)</li>
-                    <li>Responsive Web Design – FreeCodeCamp (Sep 2025)</li>
+            <h2 class="section-title">Awards & <span class="gradient-text">Achievements</span></h2>
+            
+            <div class="achievement-box mt-4">
+                <h4><i class="fas fa-trophy"></i> Outstanding Achievements</h4>
+                <ul style="line-height: 1.8; margin-top: 15px;">
+                    <li>Secured <strong>1st position</strong> individually among 30 participants in the Inter School Debate Competition (Sept 2024).</li>
+                    <li>Consistently performed in top percentiles across academic assessments emphasizing continuous learning and excellence.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section fade-in">
+        <h2 class="section-title">Licenses & <span class="gradient-text">Certifications</span></h2>
+        <div class="project-grid">
+            <!-- Certification 1 -->
+            <div class="project-card glass" data-tilt data-tilt-max="10" data-tilt-glare="true" data-tilt-max-glare="0.4">
+                <div class="project-content">
+                    <h3>Data Structures and Algorithms in C++</h3>
+                    <p class="date"><i class="far fa-calendar-alt"></i> Jun 2025 – Jul 2025 &nbsp;|&nbsp; <strong>CipherSchools</strong></p>
+                    <p style="margin-bottom: 20px;">Acquired an in-depth understanding of foundational and advanced Data Structures including Stacks, Queues, Linked Lists, Trees, and Graphs. Practiced algorithmic problem solving and optimization focusing on Time and Space Complexities.</p>
+                    <div class="tech-stack">
+                        <span>C++</span><span>Data Structures</span><span>Algorithms</span><span>Problem Solving</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Certification 2 -->
+            <div class="project-card glass" data-tilt data-tilt-max="10" data-tilt-glare="true" data-tilt-max-glare="0.4">
+                <div class="project-content">
+                    <h3>Responsive Web Design</h3>
+                    <p class="date"><i class="far fa-calendar-alt"></i> Sep 2025 &nbsp;|&nbsp; <strong>FreeCodeCamp</strong></p>
+                    <p style="margin-bottom: 20px;">Developed expertise in building fully responsive layouts using HTML5 and modern CSS techniques (Flexbox, CSS Grid). Completed multiple projects ensuring adaptive designs across devices without the need for external CSS frameworks.</p>
+                    <div class="tech-stack">
+                        <span>HTML5</span><span>CSS3</span><span>Flexbox</span><span>CSS Grid</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section fade-in">
+        <div class="contact-header" style="margin-bottom: 2rem;">
+            <h2 style="font-size: 2rem; font-weight: 800; margin-bottom: 1rem;">Let's Connect & Collaborate</h2>
+            <p style="color: var(--text-muted); font-size: 1.05rem; max-width: 600px; line-height: 1.6;">
+                I'm open to internship opportunities, collaborative projects, and research in AI/ML and software development. Feel free to reach out!
+            </p>
+        </div>
+
+        <div class="container-flex">
+            <div class="col-half" style="padding: 0; padding-right: 20px;">
+                <ul class="contact-list">
+                    <li><i class="far fa-envelope"></i> karthikreddyalidenaa@gmail.com</li>
+                    <li><i class="fas fa-phone-alt"></i> +91-9063252219</li>
+                    <li><i class="fab fa-github"></i> github.com/karthikreddyalidena</li>
+                    <li><i class="fab fa-linkedin"></i> linkedin.com/in/karthikreddyalidena</li>
                 </ul>
             </div>
             
-            <div class="achievement-box mt-4">
-                <h4><i class="fas fa-trophy"></i> Achievements</h4>
-                <ul>
-                    <li>Secured <strong>1st position</strong> individually among 30 participants in Inter School Debate Competition (Sept 2024).</li>
-                    <li>Matriculation at A.P Model School with <strong>100%</strong>.</li>
-                </ul>
+            <div class="col-half" style="padding: 0;">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">YOUR NAME</label>
+                        <input type="text" id="name" placeholder="Your name here" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">EMAIL ADDRESS</label>
+                        <input type="email" id="email" placeholder="your@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">MESSAGE</label>
+                        <textarea id="message" rows="4" placeholder="Hello Karthik! I'd like to connect about..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn submit-btn"><i class="far fa-paper-plane"></i> Send Message</button>
+                </form>
             </div>
         </div>
     </section>
